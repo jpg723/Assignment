@@ -1,1 +1,1 @@
-# School Assignment
+# School Assignment 🏫
