@@ -1,0 +1,3 @@
+﻿  LAB14_1.c
+C:\Users\user\OneDrive\바탕 화면\프논이\HWLAB14\LAB14_1\LAB14_1.c(14,18): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  LAB14_1.vcxproj -> C:\Users\user\OneDrive\바탕 화면\프논이\HWLAB14\Debug\LAB14_1.exe
