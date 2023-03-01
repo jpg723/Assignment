@@ -1,0 +1,14 @@
+﻿  HW5_2.c
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(5,52): warning C4273: 'fopen': dll 연결이 일치하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208,28): message : 'fopen'의 이전 정의를 참조하십시오.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(6,25): warning C4273: 'fclose': dll 연결이 일치하지 않습니다.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(147,26): message : 'fclose'의 이전 정의를 참조하십시오.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(7,45): warning C4030: 첫째 정식 매개 변수 목록이 둘째 목록보다 깁니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(7,45): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(7,45): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(8,46): warning C4030: 첫째 정식 매개 변수 목록이 둘째 목록보다 깁니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(8,46): warning C4028: 정식 매개 변수 1이(가) 선언과 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(8,46): warning C4028: 정식 매개 변수 2이(가) 선언과 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(93,21): warning C4477: 'fprintf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element'입니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\HW5_2\HW5_2.c(119,21): warning C4477: 'fprintf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element'입니다.
+  HW5_2.vcxproj -> C:\Users\user\OneDrive\바탕 화면\자료구조\10주차-우선순위큐\Debug\HW5_2.exe

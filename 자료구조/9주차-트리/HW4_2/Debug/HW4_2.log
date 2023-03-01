@@ -1,0 +1,4 @@
+﻿  HW4_2.c
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdlib.h(1289,1): warning C4005: 'max': 매크로 재정의
+C:\Users\user\OneDrive\바탕 화면\자료구조\9주차-트리\HW4_2\HW4_2.c(2): message : 'max'의 이전 정의를 참조하십시오.
+  HW4_2.vcxproj -> C:\Users\user\OneDrive\바탕 화면\자료구조\9주차-트리\Debug\HW4_2.exe
