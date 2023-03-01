@@ -1,0 +1,5 @@
+﻿  4진수.c
+C:\Users\user\OneDrive\바탕 화면\문해기\뽑기\4진수\4진수.c(14,11): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\뽑기\4진수\4진수.c(46,12): warning C4047: '함수': 'int **'의 간접 참조 수준이 'int *'과(와) 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\뽑기\4진수\4진수.c(46,12): warning C4024: 'pick': 형식 및 실제 매개 변수 1의 형식이 서로 다릅니다.
+  4진수.vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\뽑기\Debug\4진수.exe
