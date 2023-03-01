@@ -1,0 +1,14 @@
+package A6_4;
+
+public class Person {
+	
+	String name;
+	double height;
+	double weight;
+	
+	public Person(String name, double height, double wegith) {
+		this.name = name;
+		this.height = height;
+		this.weight = weight;
+	}
+}

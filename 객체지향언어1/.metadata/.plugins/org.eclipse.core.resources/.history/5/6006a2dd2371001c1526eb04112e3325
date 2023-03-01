@@ -1,0 +1,6 @@
+package P12_4;
+
+class Professor extends Person{
+	
+
+}

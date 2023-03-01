@@ -1,0 +1,12 @@
+package N2;
+
+class Triangle extends Shape implements Drawable{
+
+	@Override
+	@Override
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

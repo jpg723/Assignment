@@ -1,0 +1,13 @@
+
+public class P {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str = "apple";
+		
+		System.out.println(str.toUpperCase());
+	}
+
+}
+

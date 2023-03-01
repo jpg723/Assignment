@@ -1,0 +1,23 @@
+package A7_2;
+
+public class Dice {
+	
+	private int value;
+	
+	public Dive() {
+		
+	}
+	
+	public void roll() {
+		Math.random();
+	}
+	
+	public int getValue() {
+		
+	}
+	
+	public void setValue() {
+		
+	}
+
+}

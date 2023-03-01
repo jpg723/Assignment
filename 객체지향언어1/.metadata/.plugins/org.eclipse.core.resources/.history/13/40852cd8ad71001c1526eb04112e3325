@@ -1,0 +1,30 @@
+package P12_5;
+
+class Undergraduate extends Student{
+	int year;
+	
+	public Undergraduate(int id, int tuition, double gpa, int year) {
+		super();
+		this.year = year;
+	}
+	
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+	public int getYear() {
+		return year;
+	}
+	
+	public int calcScholarship() {
+		
+		if(super.getGpa() >= 3.5)
+			return (super.getTuition() * 0.5);
+	}
+	
+	public String toString() {
+		return "id= " + super.getId() + " tuition= " + super.getTuition() + " gpa = " + super.getGpa() + " 장학금= " + calcScholarship();
+		
+	}
+
+}

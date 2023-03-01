@@ -1,0 +1,19 @@
+package N2;
+
+public class Account {
+	int balance;
+	int money;
+	
+	void withdraw() {
+		balance += money; 
+	}
+	
+	void deposit() {
+		
+	}
+	
+	void print() {
+		
+	}
+
+}

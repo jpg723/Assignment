@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		@SuppressWarnings("unused")
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("메소드 호출하기 전");
+		Show s = new Show();
+		System.out.println("메소드 호출한 후");
+		s.show();
+	}
+
+}

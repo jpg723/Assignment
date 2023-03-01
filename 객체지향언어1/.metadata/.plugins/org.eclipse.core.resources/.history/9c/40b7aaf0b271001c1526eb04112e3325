@@ -1,0 +1,15 @@
+package N2;
+
+public class Shape {
+
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	interface Drawable {
+		void draw();
+	}
+
+	
+}

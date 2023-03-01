@@ -1,0 +1,5 @@
+package P11_3;
+
+class Student extends Person{
+
+}

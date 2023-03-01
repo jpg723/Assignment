@@ -1,0 +1,21 @@
+package A10_4;
+
+public class Account {
+	
+	private int accountNumber;
+	private String owner;
+	private int balance;
+
+	public void deposit(int balance) {
+		balance += balance;	
+	}
+	
+	public void withdraw(int balance) {
+		balance -= balance;
+	}
+	
+	public String toString() {
+		return "현재 잔액은 " + balance + "입니다.";
+	}
+
+}

@@ -1,0 +1,42 @@
+package P12_5;
+
+public class Student {
+	int id;
+	int tuition;
+	double gpa;
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public void setTuition(int tuition) {
+		this.tuition = tuition;
+	}
+	
+	public int getTuition() {
+		return tuition;
+	}
+	
+	public void setGpa(double gpa) {
+		this.gpa = gpa;
+	}
+	
+	public double getGpa() {
+		return gpa;
+	}
+	
+	public Student() {
+		
+	}
+	
+	public Student(int id, int tuition, double gpa) {
+		this.id = id;
+		this.tuition = tuition;
+		this.gpa = gpa;
+	}
+
+}

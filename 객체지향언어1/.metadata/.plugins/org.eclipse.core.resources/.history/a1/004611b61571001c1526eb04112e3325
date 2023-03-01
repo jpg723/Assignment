@@ -1,0 +1,25 @@
+package A12_2;
+
+import java.util.Scanner;
+
+public class Main {
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		GoodCalc gc = new GoodCalc();
+		int[] arr = {1, 2, 3};
+		
+		System.out.println("합을 구하려는 두수를 입력하시오");
+		int num1 = sc.nextInt();
+		int num2 = sc.nextInt();
+		
+		System.out.println("합: " + gc.add(num1, num2));
+		System.out.println("차: " + gc.sub(num1, num2));
+		System.out.println("배열{1,2,3}의 평균: " + gc.ave(arr));
+		
+	}
+
+}

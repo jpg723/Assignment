@@ -1,0 +1,12 @@
+package A12_1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee e0 = new Employee();
+		SalariedEmployee e1 = new SalariedEmployee();
+		HourlyEmployee e2 = new HourlyEmployee();
+	}
+
+}

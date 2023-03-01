@@ -1,0 +1,24 @@
+package P12_5;
+
+public class Undergraduate {
+	int year;
+	
+	public Undergraduate(int id, int tuition, double gpa, int year) {
+		super();
+		this.year = year;
+	}
+	
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+	public int getYear() {
+		return year;
+	}
+	
+	public String toString() {
+		return "id= " + super.getId() + " tuition= " + tuition + " gpa = " + gpa + " 장학금= " + 0;
+		
+	}
+
+}

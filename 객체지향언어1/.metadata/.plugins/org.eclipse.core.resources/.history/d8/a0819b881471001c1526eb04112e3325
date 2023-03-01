@@ -1,0 +1,5 @@
+package A12_2;
+
+abstract class GoodCalc extends Calculator{
+	
+}

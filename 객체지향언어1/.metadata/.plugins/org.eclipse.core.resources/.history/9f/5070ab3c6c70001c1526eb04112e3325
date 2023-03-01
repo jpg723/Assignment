@@ -1,0 +1,13 @@
+package A10_4;
+
+public class Account {
+	
+	private int accountNumber;
+	private String owner;
+	private int balance;
+	
+	public void deposit() {
+		balance += balance;
+	}
+
+}
