@@ -1,0 +1,7 @@
+﻿  우선순위큐.c
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\우선순위큐\우선순위큐.c(63,16): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'element'입니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\우선순위큐\우선순위큐.c(182,50): warning C4474: 'printf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\우선순위큐\우선순위큐.c(182,50): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\우선순위큐\우선순위큐.c(149,17): warning C4101: 'e5' :참조되지 않은 지역 변수입니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\우선순위큐\우선순위큐.c(149,21): warning C4101: 'e6' :참조되지 않은 지역 변수입니다.
+  우선순위큐.vcxproj -> C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\Debug\우선순위큐.exe

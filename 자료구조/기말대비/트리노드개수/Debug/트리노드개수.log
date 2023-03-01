@@ -1,0 +1,9 @@
+﻿  트리노드개수.c
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\트리노드개수\트리노드개수.c(7,1): warning C4005: 'INT_MIN': 매크로 재정의
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\limits.h(35): message : 'INT_MIN'의 이전 정의를 참조하십시오.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\트리노드개수\트리노드개수.c(8,1): warning C4005: 'INT_MAX': 매크로 재정의
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\include\limits.h(36): message : 'INT_MAX'의 이전 정의를 참조하십시오.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\트리노드개수\트리노드개수.c(163,15): warning C4101: 'result' :참조되지 않은 지역 변수입니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\트리노드개수\트리노드개수.c(165,9): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\트리노드개수\트리노드개수.c(165,12): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  트리노드개수.vcxproj -> C:\Users\user\OneDrive\바탕 화면\자료구조\기말대비\Debug\트리노드개수.exe
