@@ -1,0 +1,5 @@
+﻿  LAB(1차원 동적 할당).c
+C:\Users\user\OneDrive\바탕 화면\문해기\Sort\LAB(1차원 동적 할당)\LAB(1차원 동적 할당).c(15,12): warning C4013: 'time'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\Sort\LAB(1차원 동적 할당)\LAB(1차원 동적 할당).c(19,22): warning C4047: '=': 'int *'의 간접 참조 수준이 'int'과(와) 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\Sort\LAB(1차원 동적 할당)\LAB(1차원 동적 할당).c(20,10): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'int *'입니다.
+  LAB(1차원 동적 할당).vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\Sort\Debug\LAB(1차원 동적 할당).exe
