@@ -1,0 +1,31 @@
+<style>
+  body{
+    margin: 0;
+  }
+  #article{
+    padding-left:23px;
+  }
+  #grid{
+    display:grid;
+    grid-template-columns:150px 1fr;
+  }
+  #grid ol{
+    padding-left:33px;
+  }
+  a{
+    color:black;
+  }
+  h1{
+    font-size:45px;
+    text-align:center;
+    border-bottom:3px solid purple;
+    margin:0;
+    padding: 20px;
+  }
+  ol{
+    width:100px;
+    border-right:3px solid purple;
+    margin:0;
+    padding: 20px;
+  }
+</style>

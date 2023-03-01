@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>funtion1</title>
+    <style>
+      a{
+        text-decoration:none;
+        color : purple;
+      }
+    </style>
+    <script> //함수사용하기
+      function setColor(color){ //color는 매개변수
+        var alist = document.querySelectorAll('a');
+        var i = 0;
+        while(i < alist.length){
+          alist[i].style.color = color;
+          i = i + 1;
+        }
+      }
+      function nightDayHandler(self){ // 함수 이름 설정
+        var target = document.querySelector('body');
+        if(self.value === 'night'){ // 기존의 this부분을 self로 변경
+          target.style.backgroundColor = 'black';
+          target.style.color = 'white';
+          self.value = 'day';
+
+          setColor('powerblue');
+        }
+        else{
+          target.style.backgroundColor = 'white';
+          target.style.color = 'black';
+          self.value = 'night';
+
+          setColor('purple');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1><a href = "funtion.html">버튼1</a></h1>
+    <input id = 'night_day' type="button" value = "night" onclick= "
+      nightDayHandler(this); //함수 출력
+    ">
+    <h1><a href = "funtion.html">버튼2</a></h1>
+    <input id = 'night_day' type = "button" value = "night" onclick = "
+      nightDayHandler(this);
+    ">
+  </body>
+</html>
