@@ -1,0 +1,23 @@
+package test1;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+
+		int i = 0;
+				
+		System.out.print("단어 문자열을 입력하세요>> ");
+		String s = sc.nextLine();
+				
+		StringTokenizer st = new StringTokenizer(s, " ");
+				
+		int count = st.countTokens();
+		System.out.println("모두 " + count + "개의 단어가 있습니다.");
+		String[] buf = new String[count];
+	}
+}

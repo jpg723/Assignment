@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="true"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="true"/>
+		<item key="selection" value="import java.util.Scanner;&#x0D;&#x0A;&#x0D;&#x0A;public class Week1_2 {&#x0D;&#x0A;&#x0D;&#x0A;&#x09;public static void main(String[] args) {&#x0D;&#x0A;&#x09;&#x09;// TODO Auto-generated method stub&#x0D;&#x0A;&#x09;&#x09;Scanner sc = new Scanner(System.in);&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;String alp;&#x0D;&#x0A;&#x09;&#x09;String Alp;&#x0D;&#x0A;&#x09;&#x09;char c;&#x0D;&#x0A;&#x09;&#x09;int i;&#x0D;&#x0A;&#x09;&#x09;&#x0D;&#x0A;&#x09;&#x09;while(true) {&#x0D;&#x0A;&#x09;     &#x09;System.out.print(&quot;문자를 입력하세요: &quot;);&#x0D;&#x0A;&#x09;    &#x09;alp = sc.next();&#x0D;&#x0A;&#x09;    &#x09;&#x0D;&#x0A;&#x09;    &#x09;if(alp.equals(&quot;0&quot;))&#x0D;&#x0A;&#x09;    &#x09;&#x09;break;&#x0D;&#x0A;&#x09;    &#x09;&#x0D;&#x0A;&#x09;    &#x09;for(i = 0; i &lt; alp.length(); i++) {&#x0D;&#x0A;&#x09;    &#x09;if(alp&gt;=65 &amp;&amp; alp&lt;=90) // 대문자이면&#x0D;&#x0A;                alp +=32; // 소문자로 변환&#x0D;&#x0A;            else if(change[i]&gt;=97 &amp;&amp; change[i]&lt;=122) // 소문자이면&#x0D;&#x0A;                change[i]-=32;&#x0D;&#x0A;&#x09;          &#x09;}&#x0D;&#x0A;&#x09;    &#x09;&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;&#x09;    &#x09;System.out.println(alp.charAt(0));&#x0D;&#x0A;&#x09;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;&#x09;}&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+		<list key="findhistory">
+			<item value="\Rpublic class Test \{\R\R\tpublic static void main\(String\[\] args\) \{\R\t\t// TODO Auto-generated method stub\RScanner sc = new Scanner\(System\.in\);\R\t\t\R\t\tHashMap&lt;String, Integer&gt; nations = new HashMap&lt;String, Integer&gt;\(\);\R\t\tSystem\.out\.println\(&quot;나라 이름과 인구를 5개 입력하세요\.&quot;\);\R\t\tfor\(int i = 0; i &lt; 5; i\+\+\) \{\R\t\t\tSystem\.out\.print\(&quot;나라 이름, 인구 &gt;&gt; &quot;\);\R\t\t\tnations\.put\(sc\.next\(\), sc\.nextInt\(\)\);\R\t\t\}\R\t\t\R\t\tSet&lt;String&gt; keys = nations\.keySet\(\);\R\t\tIterator&lt;String&gt; it = keys\.iterator\(\);\R\t\t\R\t\tint max = 0;\R\t\tString max_cont = null;\R\t\twhile\(it\.hasNext\(\)\) \{\R\t\t\tString key = it\.next\(\);\R\t\t\tint value = nations\.get\(key\);\R\t\t\tif\(max &lt; value\) \{\R\t\t\t\tmax = value;\R\t\t\t\tmax_cont = key;\R\t\t\t\}\R\t\t\}\R\t\t\R\t\tSystem\.out\.println\(&quot;제일 인구가 많은 나라는 \(&quot; \+ max_cont \+ &quot;, &quot; \+ nations\.get\(max_cont\) \+ &quot;\)&quot;\);\R\t\R\R\t\}\R\R\}\R"/>
+			<item value="import java\.util\.Scanner;\R\Rpublic class Week1_2 \{\R\R\tpublic static void main\(String\[\] args\) \{\R\t\t// TODO Auto-generated method stub\R\t\tScanner sc = new Scanner\(System\.in\);\R\t\t\R\t\tString alp;\R\t\tString Alp;\R\t\tchar c;\R\t\tint i;\R\t\t\R\t\twhile\(true\) \{\R\t     \tSystem\.out\.print\(&quot;문자를 입력하세요: &quot;\);\R\t    \talp = sc\.next\(\);\R\t    \t\R\t    \tif\(alp\.equals\(&quot;0&quot;\)\)\R\t    \t\tbreak;\R\t    \t\R\t    \tfor\(i = 0; i &lt; alp\.length\(\); i\+\+\) \{\R\t    \tif\(alp&gt;=65 &amp;&amp; alp&lt;=90\) // 대문자이면\R                alp \+=32; // 소문자로 변환\R            else if\(change\[i\]&gt;=97 &amp;&amp; change\[i\]&lt;=122\) // 소문자이면\R                change\[i\]-=32;\R\t          \t\}\R\t    \t\R\R\R\t    \tSystem\.out\.println\(alp\.charAt\(0\)\);\R\t\t\}\R\R\t\}\R\R\R\}\R"/>
+			<item value="import java\.util\.Scanner;\R\Rpublic class Week1_2 \{\R\R\tpublic static void main\(String\[\] args\) \{\R\t\t// TODO Auto-generated method stub\R\t\tScanner sc = new Scanner\(System\.in\);\R\t\t\R\t\tString alp;\R\t\tString Alp;\R\t\tchar c;\R\t\tint i;\R\t\t\R\t\twhile\(true\) \{\R\t     \tSystem\.out\.print\(&quot;문자를 입력하세요: &quot;\);\R\t    \talp = sc\.next\(\);\R\t    \t\R\t    \tif\(alp\.equals\(&quot;0&quot;\)\)\R\t    \t\tbreak;\R\t    \t\R\t    \tfor\(i = 0; i &lt; alp\.length\(\); i\+\+\) \{\R\t    \tif\(alp&gt;=65 &amp;&amp; alp&lt;=90\) // 대문자이면\R                alp \+=32; // 소문자로 변환\R            else if\(change\[i\]&gt;=97 &amp;&amp; change\[i\]&lt;=122\) // 소문자이면\R                change\[i\]-=32;\R\t          \t   \}\R\t    \t\R\R\R\t    \tSystem\.out\.println\(alp\.charAt\(0\)\);\R\t\t\}\R\R\t\}\R\R\R\}\R"/>
+			<item value="import java.util.Scanner;"/>
+		</list>
+		<list key="replacehistory">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="775"/>
+		<item key="DIALOG_Y_ORIGIN" value="173"/>
+		<item key="DIALOG_WIDTH" value="393"/>
+		<item key="DIALOG_HEIGHT" value="523"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

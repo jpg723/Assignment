@@ -1,0 +1,63 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		String userNum, name, tel, email, search;
+		int choice;
+
+		Scanner sc = new Scanner(System.in);
+		try(PrintWriter in = new PrintWriter(new FileWriter("result.txt"))){
+
+
+			while(true) {
+				System.out.print("사용자 번호를 입력하세요>>");
+				userNum = sc.next();
+				System.out.print("사용자 이름을 입력하세요>>");
+				name = sc.next();
+				System.out.print("사용자 전화번호를 입력하세요>>");
+				tel = sc.next();
+				System.out.print("사용자 이메일을 입력하세요>>");
+				email = sc.next();
+
+				in.print(userNum + ", " + name + ", " + tel + ", " + email);
+				in.flush();
+
+				System.out.print("입력이 끝났으면 0, 계속 입력하려면 1을 입력하세요>>");
+				choice = sc.nextInt();
+
+				if(choice == 0)
+					break;
+			}
+		} catch(IOException e) {
+			e.printStackTrace();
+		}
+
+		System.out.print("검색하실 사용자 번호를 입력하세요>>");
+		search = sc.next();
+
+		try(Scanner scan = new Scanner(new File("result.txt"))){
+			scan.useDelimiter(",");
+
+			while(scan.hasNext()) {
+				userNum = scan.next();
+				name = scan.next();
+				tel = scan.next();
+				email = scan.next();
+				scan.nextLine();
+
+				if(userNum.equals(search)) {
+					System.out.println("사용자 번호" + search + "의 전화번호는 " + tel + "입니다.");	
+				}
+			}
+		} catch(FileNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

@@ -1,0 +1,74 @@
+create table publisher (
+pub_code varchar(5) primary key,
+pname varchar(20) not null,
+address varchar(50),
+phone varchar(20),
+est_date date
+);
+
+COMMENT ON COLUMN publisher.pub_code IS '출판사코드';
+COMMENT ON COLUMN publisher.pname IS '이름';
+COMMENT ON COLUMN publisher.address IS '주소';
+COMMENT ON COLUMN publisher.est_date IS '등록일';
+
+create table book(
+isbn varchar(13) primary key,
+title varchar(50) not null,
+author varchar(20) not null,
+publisher varchar(5) references publisher(pub_code),
+price int
+);
+
+COMMENT ON COLUMN book.isbn IS 'ISBN';
+COMMENT ON COLUMN book.title IS '제목';
+COMMENT ON COLUMN book.author IS '저자';
+COMMENT ON COLUMN book.publisher IS '출판사(코드)';
+COMMENT ON COLUMN book.price IS '가격';
+
+select *
+from ALL_TAB_COLUMNS
+where TABLE_NAME = ' publisher ' ;
+
+
+1(1)
+create table MyDept(
+dept_id varchar2(10) not null,
+dept_name varchar2(30) not null,
+office varchar2(10),
+constraint pk_depart primary key(dept_id)
+);
+
+create table Mycourse (
+course_id varchar2(10),
+title varchar2(30) not null,
+credit int,
+constraint pk_course primary key(course_id)
+);
+
+1(2)
+insert into Mydept values ('920', '컴퓨터공학과', '201호');
+insert into Mydept values ('923', '산업공학과', '207호');
+insert into Mydept values ('925', '전자공학과', '308호');
+
+insert into Mycourse values('C102', '자료구조', 3);
+insert into Mycourse values('C103', '데이터베이스', 4);
+insert into Mycourse values('C105', '알고리즘', 2);
+
+
+ALTER TABLE department DROP PRIMARY KEY;
+
+update MyCourse
+set dept_no22 = '920', credit = credit - 1
+where dept_no22 is null;
+
+insert into publisher values('10101', '민음사', '서울시', '032-111-2222', TO_DATE('1978/03/20'));
+insert into publisher values('10102', '문학동네', '파주시', '302-1234-5678', null);
+insert into publisher values('10103', '창비', '파주시', null, null);
+insert into book values('323-572493-01', '안나 카레리나', '톨스토이', '10101', 12000);
+insert into book values('787-123456-02', '전쟁과 평화', '톨스토이', '10101', 9000);
+insert into book values('983-223344-03', '오만과 편견', '제인 오스틴', '10102', 11000);
+
+update publisher
+set address='파주출판도시', est_date=TO_DATE('2021/10/01')
+where address='파주시';
+

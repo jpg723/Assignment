@@ -1,0 +1,22 @@
+
+public class Week14_3_Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread1 t = new Thread1();
+
+		for(char a = 'a'; a <= 'g'; a++) {
+			System.out.print(a + " ");
+			t.start();
+		}
+
+	}
+}
+class Thread1 extends Thread{
+	public void run() {
+		for(int i = 10; i >= 1; i--) {
+			System.out.print(i + " ");
+		}
+		System.out.print("<<th1 Á¾·á>>");
+	}
+}

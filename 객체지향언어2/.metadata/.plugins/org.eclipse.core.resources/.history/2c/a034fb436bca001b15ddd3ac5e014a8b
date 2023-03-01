@@ -1,0 +1,83 @@
+package test_1;
+
+import java.util.HashMap;
+
+import java.util.Scanner;
+
+public class MemberArrayList {
+	Scanner sc = new Scanner(System.in);
+	HashMap<String, String> member = new HashMap<String, String>();
+
+	Member[] members = new Member[100];
+
+	private int count = 1;
+
+	public void addMember()	{
+		System.out.print("아이디와 이름을 입력하시오. >> ");
+		member.put(sc.next(), sc.next());
+
+		String id = sc.next();
+		String name = (String) member.get(id);
+		
+		if(id == null) 
+			System.out.println("\n"); 
+		else
+			System.out.println("이미 존재하는 회원 아이디 입니다."); 
+
+	}
+	public void serachMember() {
+		System.out.print("ID: ");
+		String id = sc.next();
+		String name = (String) member.get(id);
+		
+		if(id.equals(null)) 
+			System.out.println("해당하는 회원은 존재하지 않습니다.");
+		else
+			System.out.println("Name:" + name); 
+		
+	}
+
+	public void showAllMember() {
+		System.out.print("\n");
+
+		for(Member m : members)	{
+			if( m != null )	{
+				printBookInfo(m);
+			}
+		}
+	}
+
+	public void removeMember()	{
+		System.out.print("삭제하려는 회원의 아이디는 : ");
+		String id = sc.next();
+
+		Member m = findBook(id);
+
+		if(m == null) {
+			System.out.println(id + "가 존재하지 않습니다.");
+			return;
+		}
+
+		for(int i = 0; i < members.length; i++)	{
+			if(members[i] != null && members[i].getId().equals(id))	{
+				members[i] = null;
+				System.out.println(id + "회원이 삭제되었습니다.");
+				return;
+			}
+		}
+	}
+
+	public void printBookInfo(Member m)	{
+		System.out.println(m.toString());
+	}
+
+	public Member findBook(String id) {		
+		for(int i = 0; i< members.length; i++)	{
+			if(members[i] != null && members[i].getId().equals(id))	{
+				return members[i];
+			}
+		}
+		return null;
+	}
+}
+

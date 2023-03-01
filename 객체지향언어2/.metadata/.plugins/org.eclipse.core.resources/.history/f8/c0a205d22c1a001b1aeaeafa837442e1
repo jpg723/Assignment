@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Assignment4_6 {
+
+	@SuppressWarnings("null")
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+        int sum = 0 ;
+		double average;
+		int[] score = { 100, 81, 93, 70, 55 };
+		int i = 0;
+		int n = 0;
+		
+		System.out.print("성적을 입력 받는 학생의 수는?: ");
+		n = sc.nextInt();
+		
+		while(i < n) {
+			System.out.print(i + 1 + "번째 학생의 성적을 입력하시오: ");
+			score[i] = sc.nextInt();
+			i++;
+			
+			if(i == n)
+				break;
+		}
+
+		for (i = 0; i < score.length; i++) {
+			sum += score[i];
+		}
+		
+		average = sum / (double) score.length ; 
+		
+		System.out.println("총점 : " + sum );
+		System.out.println("평균 : " + average);
+	}
+}
