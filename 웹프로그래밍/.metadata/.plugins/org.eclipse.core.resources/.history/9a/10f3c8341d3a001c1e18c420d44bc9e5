@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+	border-collapse: collapse;
+	width: 540px;
+}
+</style>
+<title>회원가입</title>
+</head>
+<body>
+<form>
+<div align="center">
+<table>
+	<tr>	
+		<th>아이디</th>
+		<td><input type="text" class="yellow"></td>
+	</tr>
+</table>
+</div>
+</form>
+</body>
+</html>

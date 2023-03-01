@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	table {
+		border-collapse: collapse;
+	}
+	td.box{
+		background-color: black;
+		height: 50px;
+	}
+	.a{
+		background-color: black;
+		font-color: white;
+		aling: center;
+	}
+</style>
+<title>header.jsp</title>
+</head>
+<body>
+<div align="center">
+	<table>
+		<tr>
+			<td class="box">
+				<a href="index.jsp">카페 소개</a>
+				<input type="button" value="이 달의 추천">
+				<input type="button" value="상품 주문서" onclick="order.jsp">
+			</td>
+		</tr>
+		<tr>
+			<td><img src="images/header_s.jpg"><td>
+		</tr>
+	</table>
+</div>
+</body>
+</html>

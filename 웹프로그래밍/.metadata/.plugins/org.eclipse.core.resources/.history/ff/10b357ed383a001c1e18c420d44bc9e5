@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table, tr, td{
+	border collapes: collapes;
+	border: 1px solid black;
+}
+</style>
+<title>calendar</title>
+</head>
+<body>
+<%
+	String day[]= {"월", "화", "수", "목", "금", "토", "일"};
+	String color[]= {"red", "green", "blue"};
+	
+	out.println("<table>");
+	
+	for(int i = 0; i < day.length; i++){
+		out.println("<tr>");
+		
+		if(i % 3 == 0){
+			("<td")
+			
+		}
+		out.println("</tr>");
+	}
+	out.println("</table");
+	
+%>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<th>아이디</th>
+	<td>
+		<form>
+			<input type="text" name="id" size="19"> 
+		</form>
+	</td>
+	<input type="reset" value="다시 작성">
+</body>
+</html>

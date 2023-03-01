@@ -1,0 +1,17 @@
+package ex;
+
+import java.util.*;
+
+public class AddrBean {
+
+	List<AddrBean> addrlist=new ArrayList<AddrBean>();
+	
+	public void add(AddrBean ab) {
+		addrlist.add(ab);
+	}
+	
+	public List<AddrBean> getAddrList(){
+		return addrlist;
+	}
+
+}

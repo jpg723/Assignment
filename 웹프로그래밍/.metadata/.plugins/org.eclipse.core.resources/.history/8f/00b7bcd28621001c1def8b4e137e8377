@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+td {
+	border: 1px solid gray;
+}
+
+
+</style>
+<title>계산기</title>
+</head>
+<body>
+	<div align="center">
+		<table>
+			<tr>
+				<td colspan="4" class= "col">
+				<td rowspan="2" class= "row">
+			</tr>
+			<tr>
+				<td colspan="4" class= "col">
+				<td rowspan="2" class= "row">
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

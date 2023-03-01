@@ -1,0 +1,5 @@
+<%@ taglib tagdir="/WEB-INF/tags" prefix="ddwutag" %>
+<%
+%>
+<ddwutag:greeting color="green" />
+<ddwutag:greeting color="blue" />

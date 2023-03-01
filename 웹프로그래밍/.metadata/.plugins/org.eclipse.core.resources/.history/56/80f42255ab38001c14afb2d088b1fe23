@@ -1,0 +1,28 @@
+<!-- 컴퓨터학과 20200997 이미지 / 크롬-->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Enumeration"%>
+<%@page import="java.util.*"%>
+<% 
+    request.setCharacterEncoding("UTF-8");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>result.jsp</title>
+</head>
+<body>
+	<h1>Processing Parameters</h1>
+	<%
+		Enumeration<String> en = request.getParameterNames();
+	 	String strName;
+
+	 	while (en.hasMoreElements()) {
+	  		strName= (String) en.nextElement();
+	  		out.print(strName + "<br>");
+		 }		
+	%>
+	<hr>
+</body>
+</html>

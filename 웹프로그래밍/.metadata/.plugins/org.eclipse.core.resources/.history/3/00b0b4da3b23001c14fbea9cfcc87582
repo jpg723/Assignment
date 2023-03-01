@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	td {
+		border: 1px solid white;
+	}
+	
+	table {
+		width: 500px;
+		height: 500x;
+	}
+	
+	tr.box1 {
+		background-color: #605ec4;
+		color: white;
+		width: 10px;
+		height: 100px;
+	}
+</style>
+<title>practice_A_01</title>
+</head>
+<body>
+	<div align="center">
+		<table>
+			<tr class= "box1">
+				<td>이벤트</td>
+				<td>이벤트핸들러</td>
+				<td>InternetExplorer</td>
+				<td>Chrome</td>
+				<td>Eclipse built-in</td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

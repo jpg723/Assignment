@@ -1,0 +1,12 @@
+<%@ tag language="java" pageEncoding="UTF-8"%>
+<%@ attribute name="color"%>
+<%@ attribute name="border"%>
+<%@ attribute name="id"%>
+<%@ attribute name="pw"%>
+<%@ attribute name="email"%>
+<div align="center">
+<h2><jsp:doBody/></h2>
+<table border="${border}" style="background-color: ${color};" width="150">
+<jsp:doBody/>
+</table>
+</div>

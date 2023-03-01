@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.ArrayList" %>
+<% request.setCharacterEncoding("UTF-8"); %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>시간표 작성</title>
+</head>
+<style>
+	div{
+		text-align:center;
+	}
+	ol {
+		display: inline-block;
+	}
+	input {
+		margin-left: 20px;
+	}
+	select {
+		margin-right: 10px;
+	}
+</style>
+<body>
+<%
+	String[] l={"영화", "맛집", "뉴스"};
+	
+	out.println("<div>");
+	out.println("<form name='form1' method='POST' action='bbs_list.jsp'>");
+	out.println("작성자: " + "<input type='text' name='name'><br><br>");
+	out.println("작성글: " + "<input type='text' name='main'><br><br>");
+	out.println("글분류: " + "<select name='l'><br><br>");
+	
+	for(int i = 0; i < l.length; i++)
+		out.println("<br><br><option value" + i + ">" + l[i] + "</option>");
+	out.println("</select>");
+	
+	out.println("<input type='submit' value='등록'><input type='reset' value='다시쓰기'>");
+	out.println("</form>");
+	out.println("</div>");	
+%>
+</body>
+</html>

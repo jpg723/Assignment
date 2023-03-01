@@ -1,0 +1,19 @@
+<%@ tag language="java" pageEncoding="UTF-8"%>
+<%@ attribute name="color"%>
+<%@ attribute name="border"%>
+<%@ attribute name="id"%>
+<%@ attribute name="pw"%>
+<%@ attribute name="email"%>
+<jsp:useBean id="bean" class="labhw12.LoginBean" />
+<jsp:setProperty property="*" name="bean"/>
+<div align="center">
+<h2><jsp:doBody/></h2>
+<table border="${border}" style="background-color: ${color};" width="150">
+	<tr>
+		<td>이름: </td>
+		<td>${ id }</td>
+	</tr>
+	
+
+</table>
+</div>

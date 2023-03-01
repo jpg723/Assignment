@@ -1,0 +1,31 @@
+<%@ tag language="java" pageEncoding="UTF-8"%>
+<%@ attribute name="color"%>
+<%@ attribute name="border"%>
+<jsp:useBean id="bean" class="labhw12.LoginBean" />
+<jsp:setProperty property="*" name="bean"/>
+<div align="center">
+<h2><jsp:doBody/></h2>
+<table border="${border}" style="background-color: ${color};" width="150">
+	<tr>
+		<td>이름: </td>
+		<td><jsp:getProperty property="id" name="bean"/></td>
+	</tr>
+	<tr>
+		<td>패스워드: </td>
+		<td><jsp:getProperty property="pw" name="bean"/></td>
+	</tr>
+	<tr>
+		<td>이메일: </td>
+		<td><jsp:getProperty property="email" name="bean"/></td>
+	</tr>
+	<tr>
+		<td>성별: </td>
+		<td>${ gender }</td>
+	</tr>
+	<tr>
+		<td>생일: </td>
+		<td>${ birth }</td>
+	</tr>
+
+</table>
+</div>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+	border-collapes: collapes;
+	width: 540px;'
+}
+</style>
+<title>회원가입</title>
+</head>
+<body>
+<div align="center">
+<table>
+</table>
+</div>
+</body>
+</html>

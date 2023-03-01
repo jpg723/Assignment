@@ -1,0 +1,42 @@
+<!-- 컴퓨터학과 20200997 이미지 / 크롬-->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Enumeration"%>
+<%@page import="java.util.*"%>
+<% 
+    request.setCharacterEncoding("UTF-8");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>result.jsp</title>
+</head>
+<body>
+	<%
+		Enumeration<String> en = request.getParameterNames();
+
+	 	while (en.hasMoreElements()) {
+	 		String name= (String) en.nextElement();
+	 		String value= request.getParameter(name);
+	 		String hobby[] = request.getParameterValues("hobby");
+	 	
+	 		if(name.equals("hobby")){
+	 			out.println(name + ": ");
+	 			for(String h: hobby) 
+		  			out.print(h + "/ ");
+	 		}
+	 		else
+	  			out.print(name + ": " + value + "<br>");
+		 }		
+	%>
+	<hr>
+	<h1>Processing Parameters</h1>
+	<%
+		String[] mChoices = {"hobby"};
+		String[] hobbyNames = {"뉴스", "맛집", "책", "영화", "여행"};
+		String[] telArea = {"010", "080", "070", "02"};
+		String[] gNames = {"남", "여"};
+	%>
+</body>
+</html>

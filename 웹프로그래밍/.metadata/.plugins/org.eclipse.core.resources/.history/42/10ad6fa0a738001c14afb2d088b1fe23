@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Enumeration"%>
+<%@page import="java.util.*"%>
+<% 
+    request.setCharacterEncoding("UTF-8");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>result.jsp</title>
+</head>
+<body>
+	<h2>전달된 파라미터 이름들</h2>
+	<%
+		Enumeration<String> en = request.getParameterNames();
+	 	String name;
+
+	 	while (en.hasMoreElements()) {
+	  		name= (String) en.nextElement();
+	  		out.print(name + "<br>");
+		 }		
+	%>
+	<hr>  	  
+    <%
+
+	 	while (en.hasMoreElements()) {
+	 		name= (String) en.nextElement();
+	 		String value=request.getParameter(name);
+            out.println(value + "<br>");
+		 }
+    %>
+</body>
+</html>

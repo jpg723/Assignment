@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login.jsp</title>
+</head>
+<body>
+<div>
+<%
+	request.setCharacterEncoding("UTF-8"); // euc-kr
+	session.setAttribute("userid",request.getParameter("userid"));
+	
+	String id = request.getParameter("id");
+	String pwd = request.getParameter("pwd");
+
+	String dbid = "admin";
+	String dbpwd = "1234";
+	String username = "관리자";
+
+	if(dbid.equals(id)){
+		if(dbpwd.equals(pwd)){
+			session.setAttribute("userid", id);
+			response.sendRedirect("login.jsp");
+		}
+		else{
+			//비밀번호 오류.
+					response.sendRedirect("login_main.jsp");
+		}
+	}
+	else{
+		//아이디 없음.
+			response.sendRedirect("login_main.jsp");
+	}
+%>
+<form name="fomr2" method="POST" action="logout.jsp">
+	<%=session.getAttribute("username") %>님 로그인하셨습니다.<BR><BR>
+	세션 ID : <%= session.getId() %> <BR>
+	세션 유지시간 : <%= session.getMaxInactiveInterval() %>초 <BR><BR>
+	<input type="submit" value="로그아웃">	
+</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LAB5_3</title>
+<style>
+	table{
+		width: 500px;
+		border: 1px solid;
+	}
+	
+	td, th{
+		border: 1px solid black;
+	}
+</style>
+</head>
+<body>
+	<%
+		String week[] = {"월", "화", "수", "목", "금", "토", "일"};
+		String color[] = {"red", "green", "blue"};
+		out.println("<div align = 'center'>");
+		out.println("<table>");
+		out.println("<tr>");
+		
+		int c = 0;
+		
+		for(int i = 0; i < week.length; i++){
+			
+			if(i % 3 == 0){
+				out.println("<th style='color:" + color[c] +"'>" + week[i] + "</th>");
+				c++;
+			}
+			else
+				out.println("<th style= 'color: black'>" + week[i] + "</th>");
+		}
+		
+		for(int i = 0; i < 4; i++){
+			out.println("<tr>");
+			
+			for(int j = 0; j < 7; j++){
+				out.println("<td>" + "&nbsp;" + "</td>");
+			}
+			out.println("</tr>");
+		}
+		
+		out.println("</table>");
+	%>
+
+</body>
+</html>

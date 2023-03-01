@@ -1,0 +1,20 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>news.jsp</title>
+</head>
+<body>
+	<span>오늘의 공지사항</span>
+	<hr>
+	<ul>
+	<%
+		out.println("<li>" + request.getParameter("TASK1") + "<br>");
+		out.println(request.getParameter("TASK2") + "<br>");
+		out.println(request.getParameter("TASK3") + "</li>");
+	%>
+	</ul>
+</body>
+</html>

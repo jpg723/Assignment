@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>이미지 리스트</title>
+<style>
+ul li{
+	list-style: none;
+	border: 1px solid black;
+}
+
+.s1{
+	front-size: 16px;
+	font-weight: bold;
+	color: grean;
+}
+
+ul li span{
+	margin: 0px 150px 40px 30px;
+	vertical-align: middle;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	margin-right: 150px;
+	vertical-align: middle;
+}
+textarea{
+	vertical-align: middle;
+}
+</style>
+</head>
+<body>
+	<%
+		String headerArr[] = {"이미지", "이미지명", "설명"};
+		String imgArr[] = {"smile.png", "star.png", "clover.png", "heart.png", "sad.png"};
+		String captionArr[] = {"미소", "별", "클로버", "하트", "슬픔"};
+		
+		out.println("<ul>");
+		out.println("<li class=\"List-1\">");
+		
+		for(int i = 0; i < headerArr.length; i++){
+			out.println("<span class=\"s1\">[" + headerArr[i] + "]</span>");
+		}
+		out.println("</li>");
+		
+		for(int i = 0; i < headerArr.length; i++){
+			out.println("<li>");
+			out.println("img src=\"../images/" + imgArr[i] + "\">");
+			out.println("<span>" + captionArr[i] + "</span>");
+			
+			out.println("<textarea row=5 cols=50>이 이미지는...</textarea>");
+			out.println("</li>");
+		}
+		out.println("</ul>");
+	%>
+</body>
+</html>

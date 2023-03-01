@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>LAB7_4 forward</title>
+</head>
+<body>
+ 	 <form action="form01_process.jsp" method="post">
+        <input type="text" name="id" onfocus="아이디">
+        <p> <input type="text" name="pw" onfocus="비밀번호">
+        <p> 전송:<input type="submit" value="전송">
+    </form>
+</body>
+</html>

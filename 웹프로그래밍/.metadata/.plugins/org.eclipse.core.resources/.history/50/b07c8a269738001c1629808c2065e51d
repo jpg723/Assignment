@@ -1,0 +1,41 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Enumeration"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>request_result</title>
+</head>
+<body>
+	<h2>전달된 파라미터 이름들</h2>
+	<hr>    
+	<%
+        request.setCharacterEncoding("utf-8");
+	
+        Enumeration<String> en=request.getHeaderNames();
+        String name=(String)en.nextElement();
+        
+        while(en.hasMoreElements())
+        {
+        	if(name){
+          	 	String pValue=request.getParameter(name);
+          	 	out.println(pValue + "<br>");
+        	}
+        }
+        
+    %>
+    <hr>
+    <%
+   	 	String []type= request.getParameterValues("type");
+    
+    	for(String t:type){
+    		out.println("타입: " + t + "<br>");
+    	}
+   		String id=request.getParameter("strID");
+    	String pw=request.getParameter("strPwd");    	
+    %>
+    아이디: <%=id %><br>
+    비밀번호: <%=pw %>
+</body>
+</html>

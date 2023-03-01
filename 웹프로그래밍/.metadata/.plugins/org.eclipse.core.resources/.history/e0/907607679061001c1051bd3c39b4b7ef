@@ -1,0 +1,32 @@
+<%@ tag language="java" pageEncoding="UTF-8"%>
+<jsp:useBean id="bean" class="finalBean.LoginBean" />
+<jsp:setProperty property="*" name="bean"/>
+<h2><jsp:doBody/></h2>
+이름:${ bean.getId()}님은 ${ bean.getColor()}<br>
+생일: ${ bean.getBirth()}
+	</tr>
+	<tr>
+		<td colspan="2">
+			<%	
+				String age = " ";
+				int gender = Integer.parseInt(bean.getGender());
+				String gen = " ";
+				
+				if(bean.isGrownUp() == true)
+					age = "성인이 아닙니다";
+			
+				else
+					age = "성인입니다";
+				
+				if(gender == 1)
+					gen = "여성이고, ";
+				
+				else
+					gen = "남성이고, ";
+				
+				out.println(bean.getId() + "씨는 " + gen + age);
+			%>
+		</td>
+	</tr>
+</table>
+</div>

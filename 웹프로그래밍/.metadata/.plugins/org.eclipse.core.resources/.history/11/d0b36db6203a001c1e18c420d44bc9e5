@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+	border-collapse: collapse;
+	width: 300px;
+}
+table, th, td{
+	border: 1px solid white;
+}
+tr{
+	height: 35px;
+}
+input.yellow{
+	background-color:yellow;
+}
+td {
+	font-weight:bold;
+}
+td.class {
+	font-size: 12px;
+}
+</style>
+<title>회원가입</title>
+</head>
+<body>
+<form>
+<div align="center">
+<table>
+	<tr>
+		<td rowspan="6"><img src="image/login.png" height="150px" width="230px"></td>
+	</tr>
+	<tr>
+		<td colspan="2" class="class">회원님의 아이디와 비밀번호를 정확히 입력하세요.</td>
+	</tr>
+	<tr>
+		<th></th>
+		<td>
+		<select>
+			<option selected>학부생</option>
+			<option>대학원생</option>
+			<option>교직원</option>
+		</select>
+		</td>
+	</tr>
+	<tr>	
+		<td>아이디</td>
+		<td><input type="text" class="yellow" size=19></td>
+	</tr>
+	<tr>
+		<td>비밀번호</td>
+		<td><input type="password" class="yellow"></td>
+	</tr>
+	<tr>
+		<td colspan="2">
+			<input type="button" value="로그인">
+			<input type="button" value="가입하기">
+		</td>
+	</tr>
+</table>
+</div>
+</form>
+</body>
+</html>

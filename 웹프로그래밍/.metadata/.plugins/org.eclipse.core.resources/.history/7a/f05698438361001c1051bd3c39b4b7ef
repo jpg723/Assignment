@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" import="java.util.*"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login.jsp</title>
+</head>
+<body>
+<div>
+<%
+	request.setCharacterEncoding("UTF-8"); // euc-kr
+	session.setAttribute("username",request.getParameter("username"));
+%>
+<%=session.getAttribute("username") %>님 로그인하셨습니다.<BR><BR>
+세션 ID : <%= session.getId() %> <BR>
+세션 유지시간 : <%= session.getMaxInactiveInterval() %>초 <BR><BR>
+</div>
+</body>
+</html>

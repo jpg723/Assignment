@@ -1,0 +1,39 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@page import="java.util.Enumeration"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>request_result</title>
+</head>
+<body>
+	<h2>전달된 파라미터 이름들</h2>
+	<% 
+		Enumeration attrEnum = application.getAttributeNames(); 
+	
+		while (attrEnum.hasMoreElements()) { 
+			String name2 = attrEnum.nextElement().toString(); 
+			Object value2 = application.getAttribute(name2); 
+	%> 
+	
+	application 속성 : <b><%=name2 %></b> / <%=value2 %><br> 
+	
+	<% 
+		} 
+	%>
+
+	<hr>    
+    <%
+    	request.setCharacterEncoding("UTF-8");
+
+   	 	String type= request.getParameter("type");
+   		String id=request.getParameter("strID");
+    	String pw=request.getParameter("strPwd"); 
+    	
+    	out.println("타입: "+ type + "<br>");
+    	out.println("아이디: "+ id + "<br>");
+    	out.println("비밀번호: "+ pw);
+    %>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!-- 컴퓨터학과 20200997 이미지 / 크롬-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+	border-collapse: collapse;
+	width: 530px;
+}
+
+table, th, td {
+	border: 1px solid gray;
+	font-weight: bold;
+}
+
+th {
+	font-size: 20;
+	background-color:#ededed;
+}
+tr {
+	height: 23px;
+}
+
+</style>
+<title>Practice_02</title>
+</head>
+<body>
+	<div align="center">
+		<table>
+			<tr>
+				<th colspan="11">회원 가입</th>
+			</tr>
+			<tr>
+				<th>아이디</th>
+				<td>
+					<input type="text" name="id" size="19">
+				</td>
+			</tr>
+			<tr>
+				<th>패스워드</th>
+				<td>
+					<input type="password" name="pwd" size="20">
+				</td>
+			</tr>
+			<tr>
+				<th>성별</th>
+				<td><input type="radio" name="gen" value="0">남 
+				<input type="radio" name="gen" value="1" checked>여</td>
+			</tr>
+			<tr>
+				<th>국적</th>
+				<td>
+					<input type="text" name="nation">
+					<input type="button" value="국적변경">
+				</td>
+			</tr>
+			<tr>
+				<th>휴대폰</th>
+				<td>
+					<select name= "phone">
+						<option value= 1 selected>010</option>
+						<option value= 2>011</option>
+						<option value= 3>017</option>
+						<option value= 4>070</option>
+						<option value= 5>080</option>
+					</select>
+					- <input name="phone" size="6">
+					- <input name="phone" size="6">
+				</td>
+			</tr>
+			<tr>
+				<th>이메일</th>
+				<td><input type="text" name="email" size="50"></td>
+			</tr>
+			<tr>
+				<th>생일</th>
+				<td><input type="date"></td>
+			</tr>
+			<tr>
+				<th>관심분야</th>
+				<td>
+					<input type="checkbox" name="hobby" value="0">뉴스
+					<input type="checkbox" name="hobby" value="1" checked>맛집 
+					<input type="checkbox" name="hobby" value="2">책 
+					<input type="checkbox" name="hobby" value="3">영화 
+					<input type="checkbox" name="hobby" value="4">여행
+				</td>
+			</tr>
+			<tr>
+				<th>가입인사</th>
+				<td><textarea cols="55" rows="5">회원들에게 간단한 가입인사를 남겨주세요</textarea></td>
+			</tr>
+			</form>
+			<tr>
+				<th>증명사진</th>
+				<td><input type="file" name="photo" size="40"></td>
+			</tr>
+			<tr>
+				<th colspan="11">
+				<input type="submit" value="회원 가입">
+				<input type="reset" value="다시 작성">
+				</th>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

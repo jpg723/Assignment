@@ -1,0 +1,13 @@
+127.0.0.1 - - [25/Sep/2021:00:16:06 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:08 +0900] "GET /Practice_01/ HTTP/1.1" 404 823
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:22 +0900] "GET /Practice_01/Practice_01.html HTTP/1.1" 404 839
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:23 +0900] "GET /Practice_01/Practice_01.html HTTP/1.1" 404 839
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:24 +0900] "GET /Practice_01/Practice_01.html HTTP/1.1" 404 839
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:25 +0900] "GET /Practice_01/Practice_01.html HTTP/1.1" 404 839
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:27 +0900] "GET /Practice_01/Practice_01.html HTTP/1.1" 404 839
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:41 +0900] "GET /Practice_02/Practice_02.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:41 +0900] "GET /Practice_02/image/checkbutton.jpg HTTP/1.1" 200 3121
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:56 +0900] "GET /Practice_03/member1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:56 +0900] "GET /Practice_03/image/background.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:16:56 +0900] "GET /Practice_03/image/login.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Sep/2021:00:18:09 +0900] "GET /Practice_01/Practice_01.html HTTP/1.1" 200 2142

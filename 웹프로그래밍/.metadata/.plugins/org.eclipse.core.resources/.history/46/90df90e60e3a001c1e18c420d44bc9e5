@@ -1,0 +1,108 @@
+<!-- 컴퓨터학과 20200997 이미지 / 크롬-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table {
+	border-collapse: collapse;
+	width: 610px;
+}
+
+table, td, th {
+	border: solid 1px #303030;
+	width: 610px;
+}
+
+th, tr, td {
+	height: 55px;
+	width: 70px;
+}
+
+th {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+td {
+	text-align: center;
+	font-size: 13px;
+}
+
+td.blue {
+	background-color: #a1bdff;
+}
+
+td.yellow {
+	background-color: #ffe366;
+}
+
+td.gray {
+	background-color: #adadad;
+}
+
+#table_title {
+	height: 50px;
+}
+</style>
+<title>컴퓨터학과 2학년 시간표</title>
+</head>
+<body>
+	<div align="center">
+		<table>
+			<caption>
+				<h2>강의시간표</h2>
+			</caption>
+			<tr id="table_title">
+				<th>2학년</th>
+				<th>월</th>
+				<th>화</th>
+				<th>수</th>
+				<th>목</th>
+				<th>금</th>
+			</tr>
+			<tr>
+				<th id="col1">1</th>
+				<td id="col2"></td>
+				<td id="col3" rowspan="2" class="yellow">자료구조</td>
+				<td id="col4" class="yellow">네트워크</td>
+				<td id="col5"></td>
+				<td id="col6" class="yellow">네트워크</td>
+			</tr>
+			<tr>
+				<th id="col1">2</th>
+				<td id="col2" rowspan="2" class="yellow">데이터베이스개론</td>
+				<td id="col4"></td>
+				<td id="col5"></td>
+				<td id="col6" class="blue">운영체제</td>
+			</tr>
+			<tr>
+				<th id="col1">3</th>
+				<td id="col3"></td>
+				<td id="col4" class="blue">운영체제</td>
+				<td id="col5"></td>
+				<td id="col6" rowspan="4">사회봉사</td>
+			</tr>
+			<tr>
+				<th id="col1">4</th>
+				<td id="col2" rowspan="2" class="blue">웹프로그래밍</td>
+				<td id="col3" class="gray">창의와감성</td>
+				<td id="col4"></td>
+				<td id="col5" class="gray">창의와감성</td>
+			</tr>
+			<tr>
+				<th id="col1">5</th>
+				<td id="col3"></td>
+				<td id="col4"></td>
+				<td id="col5" rowspan="2" class="blue">소프트웨어프로그래밍</td>
+			</tr>
+			<tr>
+				<th id="col1">6</th>
+				<td id="col2"></td>
+				<td id="col3"></td>
+				<td id="col4"></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

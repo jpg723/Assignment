@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	td.t1{
+		margin: 5px; 
+		padding: 100px
+	}
+</style>
+<title>NAMOO Cafe</title>
+</head>
+<body>
+<table>
+	<tr>
+		<td><%@include file="header.jsp" %></td>
+	</tr>
+	<tr>
+		<td class="t1"><img src="images/coffee1.jpg" width="250" height="150"></td>
+	</tr>
+</table>
+</body>
+</html>

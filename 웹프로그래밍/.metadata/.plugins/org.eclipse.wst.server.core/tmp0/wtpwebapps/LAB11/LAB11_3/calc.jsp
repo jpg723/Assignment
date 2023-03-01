@@ -1,0 +1,68 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:useBean id="calc" class="labhw11.CalcBean" scope="page"/>
+<jsp:setProperty name="calc" property="*"/>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	div{
+		align: center;
+	}
+	td {
+		border: 0.5px solid #7d4f40;
+	}
+	table {
+		width: 500px;
+		height: 300x;
+	}
+	
+	td.box1 {
+		width: 500px;
+		height: 80px;
+		background-color: #ffdb78;
+		font-size: 75px;
+		text-align: center;
+	}
+	
+	td.box2 {
+		width: 250px;
+		height: 350px;
+		text-align: center;
+	}
+	
+	input {
+		text-align: center;
+	}
+</style>
+<title>Calculator</title>
+</head>
+<body>
+<div align="center">
+	<table>
+	<tr>
+		<td colspan="2" class= "box1">CalCuLaTor</td>
+	</tr>
+	<tr>
+		<td colspan="1" class="box2"><img src= "image/calculator.png" width="100%"></td>
+		<td colspan="1" class="box2">
+			<form name=form1 method=post action="calc_result.jsp">
+				<input type="text" name="op1" size=15 value="0"><br><br>
+				<select name="operator">
+					<option selected>+</option>
+					<option>-</option>
+					<option>*</option>
+					<option>/</option>
+				</select><br><br>
+				<input type="text" name="op2" size="15" value="0" ><br><br>
+				<input type="submit" value="=" name="calculate"><br><br>
+				<input type="text" name="result" size="10" disabled>
+			</form>
+		</td>
+	</tr>
+	<tr><th colspan="2">&nbsp;</th></tr>
+</table>
+</div>
+</body>
+</html>

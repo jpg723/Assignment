@@ -1,0 +1,51 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import = "java.util.Calendar" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>calendar</title>
+<style>
+	table {
+		width: 500px;
+	}  
+	
+	table, tr, td{
+		border-style: hidden;
+	}
+</style>
+</head>
+<body>
+<%
+	Calendar cal = Calendar.getInstance();
+	int year = 2021;
+	int month = 10;
+	
+	cal.set(Calendar.YEAR, year);
+	cal.set(Calendar.MONTH, month - 1);
+	cal.set(Calendar.DATE, 1);
+	
+	int end = cal.getActualMaximum(Calendar.DAY_OF_MONTH);
+	int day = cal.get(Calendar.DAY_OF_WEEK);
+	
+	out.println("<h2>" + year + "년 " + month + "월</h2><hr>");
+	
+	out.println("<table>" );
+
+	for(int i = 1; i <= end; i++){
+		
+		out.println("<tr>");
+		out.println("<td>" + i);
+		
+		if(i % 7 == 0){
+			out.println("</td>");		
+			out.println("</tr>");		
+		}
+	}
+	
+	out.println("</table>");
+%>
+
+</body>
+</html>

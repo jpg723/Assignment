@@ -1,0 +1,70 @@
+<!-- 컴퓨터학과 20200997 이미지 / 크롬-->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+table{
+	border-collapse: collapse;
+	width: 550px;
+}
+table, th, td {
+	font-weight: bold;
+	font-size: 12px;
+	height: 30px;
+}
+</style>
+
+<script> 
+function welcome() {
+	alert('어서 오세요');
+	frm1.id.focus();
+} 
+
+function noMember() {
+	alert('회원이 아니군요');
+} 
+</script>
+
+<title>이클래스 로그인</title>
+</head>
+<body onload = "welcome()">
+<form name="frm1">
+	<div align="center">
+		<img src="image/background.jpg" width="100%">
+		<h2>로그인</h2>
+		<hr></hr>
+		
+		<table>
+			<tr>
+				<td rowspan="5"><img src="image/login.png" height="150px" width="230px"></td>
+				<td colspan="4">회원님의 아이디와 비밀번호를 정확히 입력하세요.</td>
+			</tr>
+			<tr>
+				<th colspan="4">
+					<select name= "type">
+						<option value= 1 selected>학부생</option>
+						<option value= 2>대학원생</option>
+						<option value= 3>교직원</option>
+					</select>
+				</th>
+			</tr>
+			<tr>
+				<td colspan="1">아이디</td>
+				<td colspan="3"><input type="text" name="id" size="18" style="background-color: #fff47d" autofocus /></td>
+			</tr>
+			<tr>
+				<td colspan="1">비밀번호</td>
+				<td colspan="3"><input type="password" name="pwd" size="19" maxlength="10" style="background-color: #fff47d"></td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<input type="button" value="로그인" onclick="noMember()">
+					<input type="button" value="가입하기" onclick="document.location='member2.html'">
+				</td>
+			</tr>
+		</table>
+	</div>
+</form>
+</body>
+</html>

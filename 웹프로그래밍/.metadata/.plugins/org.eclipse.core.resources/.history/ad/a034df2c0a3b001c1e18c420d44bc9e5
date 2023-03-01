@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	td.t1{
+		margin: 100px; 
+		padding: 50px
+	}
+</style>
+<title>NAMOO Cafe</title>
+</head>
+<body>
+<table>
+	<tr>
+		<td><%@include file="header.jsp" %></td>
+	</tr>
+	<tr>
+		<td class="t1">
+			카페 소개
+			<p><img src="images/coffee1.jpg" width="250" height="150">
+			<p>영업 시간: 오전 9시 ~ 밤 10시
+			<p>휴무: 
+			<span style="color: red;">매주 화요일</span>
+			<span style=" font-style: italic;">(화요일이 공휴일일 경우 화요일 영업, 다음날 휴무)</span>
+		</td>
+	</tr>
+	<tr>
+		<td><%@include file="calendar.jsp" %></td>
+	</tr>
+
+</table>
+</body>
+</html>

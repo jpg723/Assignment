@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login_main.jsp</title>
+</head>
+<body>
+<%
+	String username = (String)session.getAttribute("username");
+
+	if(username != null)
+		out.println("<form action='login.jsp'>");
+		session.setAttribute("username", username); 
+%>
+<%
+	String id = request.getParameter("userid");
+	String pwd = request.getParameter("userpw");
+	
+	String dbid = "admin";
+	String dbpwd = "1234";
+	
+	if(dbid.equals(id)){
+		if(dbpwd.equals(pwd)){
+			session.setAttribute("관리자", userid);
+			response.sendRedirect("login.jsp");
+		}
+		else{
+			//비밀번호 오류.
+					response.sendRedirect("login_main.jsp");
+		}
+	}
+	else{
+		//아이디 없음.
+			response.sendRedirect("login_main.jsp");
+	}
+%>
+<div>
+	<form name="fomr1" method="POST" action="login.jsp">
+		아이디: <input type="text" name="userid">&nbsp;
+		비밀번호: <input type="password" name="userpw">&nbsp;
+		<input type="submit" value="로그인">	
+	</form>
+</div>
+</body>
+</html>

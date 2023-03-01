@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+td {
+	border: 1px solid gray;
+}
+
+th.box1, th.box2 {
+	background-color: #ffeab0;
+	width: 400px;
+	height: 30px;
+}
+
+</style>
+<title>계산기</title>
+</head>
+<body>
+	<div align="center">
+		<table>
+			<tr>
+				<th class="box1"></th>
+				<th>
+			</tr>
+			<tr>
+				<th class="box2">
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로그인 성공</title>
+</head>
+<body>
+<%
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String url = "";
+String msg = "Enter the id(" + id + ") and password(" + pw + ")";
+ 
+if(id.equals("admin") && pw.equals("1234")){
+%>
+    <jsp:forward page="main.jsp">
+    </jsp:forward>
+<%    
+}
+
+else {
+%>
+    <jsp:forward page="login_form.jsp">
+    <jsp:param name="msg" value="<%=msg %>"/>
+    </jsp:forward>
+<%     
+}
+ 
+%>
+</body>
+</html>
