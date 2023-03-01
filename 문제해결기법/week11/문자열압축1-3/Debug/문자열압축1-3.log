@@ -1,0 +1,5 @@
+﻿  문자열압축1-3.c
+C:\Users\user\OneDrive\바탕 화면\문해기\week11\문자열압축1-3\문자열압축1-3.c(13,16): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\week11\문자열압축1-3\문자열압축1-3.c(18,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\week11\문자열압축1-3\문자열압축1-3.c(46,11): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다.
+  문자열압축1-3.vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\week11\Debug\문자열압축1-3.exe

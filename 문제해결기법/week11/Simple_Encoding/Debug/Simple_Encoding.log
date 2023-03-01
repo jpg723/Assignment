@@ -1,0 +1,3 @@
+﻿  Simple_Encoding.c
+C:\Users\user\OneDrive\바탕 화면\문해기\week11\Simple_Encoding\Simple_Encoding.c(43,20): warning C4101: 'arr' :참조되지 않은 지역 변수입니다.
+  Simple_Encoding.vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\week11\Debug\Simple_Encoding.exe

@@ -1,0 +1,3 @@
+﻿  HW(행렬곱_동적할당).c
+C:\Users\user\OneDrive\바탕 화면\문해기\week10\HW(행렬곱_동적할당)\HW(행렬곱_동적할당).c(48,6): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+  HW(행렬곱_동적할당).vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\week10\Debug\HW(행렬곱_동적할당).exe

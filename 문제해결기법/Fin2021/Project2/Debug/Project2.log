@@ -1,0 +1,4 @@
+﻿  project2.c
+C:\Users\user\OneDrive\바탕 화면\문해기\fin_2021\Project2\project2.c(25,18): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\fin_2021\Project2\project2.c(35,6): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Project2.vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\fin_2021\Debug\Project2.exe
