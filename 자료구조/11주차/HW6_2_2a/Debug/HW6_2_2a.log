@@ -1,0 +1,7 @@
+﻿  HW6_2_2a.c
+C:\Users\user\OneDrive\바탕 화면\자료구조\11주차\HW6_2_2a\HW6_2_2a.c(60,6): warning C4013: 'init'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\11주차\HW6_2_2a\HW6_2_2a.c(62,9): warning C4013: 'enqueue'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\11주차\HW6_2_2a\HW6_2_2a.c(63,18): warning C4013: 'is_empty'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\11주차\HW6_2_2a\HW6_2_2a.c(64,14): warning C4013: 'dequeue'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\11주차\HW6_2_2a\HW6_2_2a.c(100,6): warning C4101: 'u' :참조되지 않은 지역 변수입니다.
+  HW6_2_2a.vcxproj -> C:\Users\user\OneDrive\바탕 화면\자료구조\11주차\Debug\HW6_2_2a.exe
