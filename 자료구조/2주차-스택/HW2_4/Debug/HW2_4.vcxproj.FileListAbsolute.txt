@@ -1,0 +1,2 @@
+C:\Users\user\OneDrive\바탕 화면\자료구조\2주차\Debug\HW2_4.exe.lastcodeanalysissucceeded
+C:\Users\user\OneDrive\바탕 화면\자료구조\2주차\HW2_4\Debug\NativeCodeAnalysis.read.1.tlog

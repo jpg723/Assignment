@@ -1,0 +1,4 @@
+﻿  mid6.c
+C:\Users\user\OneDrive\바탕 화면\자료구조\중간고사\mid6\mid6.c(78,16): error C2440: '함수': 'TreeNode *'에서 'element'(으)로 변환할 수 없습니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\중간고사\mid6\mid6.c(78,16): warning C4024: 'push': 형식 및 실제 매개 변수 2의 형식이 서로 다릅니다.
+C:\Users\user\OneDrive\바탕 화면\자료구조\중간고사\mid6\mid6.c(84,17): error C2440: '=': 'element'에서 'TreeNode *'(으)로 변환할 수 없습니다.
