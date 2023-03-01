@@ -1,0 +1,3 @@
+﻿  LAB9_4.c
+C:\Users\user\OneDrive\바탕 화면\컴프\LABHW9\LAB9_4\LAB9_4.c(18,50): warning C4020: 'strcat': 실제 매개 변수가 너무 많습니다.
+  LAB9_4.vcxproj -> C:\Users\user\OneDrive\바탕 화면\컴프\LABHW9\Debug\LAB9_4.exe
