@@ -1,0 +1,4 @@
+﻿  Lab(피보나치-memo).c
+C:\Users\user\OneDrive\바탕 화면\문해기\week12\Lab(피보나치-memo)\Lab(피보나치-memo).c(26,18): warning C4013: 'malloc'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\user\OneDrive\바탕 화면\문해기\week12\Lab(피보나치-memo)\Lab(피보나치-memo).c(36,6): warning C4013: 'free'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  Lab(피보나치-memo).vcxproj -> C:\Users\user\OneDrive\바탕 화면\문해기\week12\Debug\Lab(피보나치-memo).exe
