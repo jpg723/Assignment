@@ -1,5 +1,0 @@
-package N2;
-
-class Rectangle extends Shape{
-
-}

@@ -1,5 +1,0 @@
-package A12_4;
-
-class MyColorPoint extends MyPoint{
-
-}
