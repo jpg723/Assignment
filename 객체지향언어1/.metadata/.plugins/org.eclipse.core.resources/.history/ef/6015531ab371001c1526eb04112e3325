@@ -1,0 +1,12 @@
+package N2;
+
+class Triangle extends Shape implements Drawable{
+	
+	private length, height;
+	
+	public void draw() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

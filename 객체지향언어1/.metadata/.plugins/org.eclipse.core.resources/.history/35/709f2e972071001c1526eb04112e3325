@@ -1,0 +1,18 @@
+package A12_1;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		Employee e0 = new Employee();
+		SalariedEmployee e1 = new SalariedEmployee(null, 0, 0);
+		HourlyEmployee e2 = new HourlyEmployee(null, 0, 0, 0);
+		
+		e0.input();
+	}
+
+}

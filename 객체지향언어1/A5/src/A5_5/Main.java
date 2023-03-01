@@ -1,0 +1,19 @@
+package A5_5;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student s = new Student();
+		
+		s.name = "Kim";
+		s.rollno = 20180001;
+		s.age = 20;
+		
+		System.out.println("학생의 이름: " + s.name);
+		System.out.println("학생의 학번: " + s.rollno);
+		System.out.println("학생의 나이: " + s.age);
+		
+	}
+
+}

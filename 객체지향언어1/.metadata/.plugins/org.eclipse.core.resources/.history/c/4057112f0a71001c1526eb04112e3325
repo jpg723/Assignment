@@ -1,0 +1,16 @@
+package A11_1;
+
+public class BankAccount {
+	private String name;
+	private int accNo;
+	private int balance;
+	private String interest;
+	
+	public void setName() {
+		this.name = name;
+	}
+	
+	public String getName(String name) {
+		return name;
+	}
+}

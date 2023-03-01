@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class A2_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		double f, c;
+		
+		System.out.print("화씨온도를 입력하시오: ");
+		f = sc.nextDouble();
+		
+		
+	}
+
+}

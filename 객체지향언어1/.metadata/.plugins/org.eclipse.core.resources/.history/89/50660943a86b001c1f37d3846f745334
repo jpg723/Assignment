@@ -1,0 +1,29 @@
+
+public class P {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		A a = new A();
+		
+		a.b = 20;
+		a.c = 30;
+		
+		a.print();
+		System.out.println(a.b);
+		System.out.println(a.c);
+	}
+
+}
+
+class A{
+	
+	private int a;
+	int b;
+	public int c;
+	
+	void print() {
+		a = 10;
+		System.out.println(a);
+	}
+}

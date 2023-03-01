@@ -1,0 +1,17 @@
+package N2;
+
+public class N2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "java program";
+		int n = str.length();
+		char[] st = new char[n];
+		
+		for(int i = n - 1; i > -1; i--) {
+			st[i] = str.charAt(i - 1);
+			System.out.print(st[i]);
+		}
+	}
+
+}

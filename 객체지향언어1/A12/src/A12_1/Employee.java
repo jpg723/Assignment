@@ -1,0 +1,54 @@
+package A12_1;
+
+import java.util.Scanner;
+
+public class Employee {
+	
+	Scanner sc = new Scanner(System.in);
+	private String name;
+	private int id;
+	private String position;
+	
+	public Employee() {
+		this.name = "모름";
+		this.id = -1;
+		this.position = "모름";
+	}
+	
+	public Employee(String name, int id) {
+		this.name = name;
+		this.id = id;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setId(int id) {
+		this.id = id;
+	}
+	
+	public int getId() {
+		return id;
+	}
+	
+	public void setPosition(String position) {
+		this.position = position;
+	}
+	
+	public String getPosition() {
+		return position;
+	}
+	
+	public int computeSalary() {
+		return -1;
+	}
+	
+	public String toString() {
+		return name + "(" + position + ", " + id + ")";
+	}
+}

@@ -1,0 +1,21 @@
+package A4_5;
+
+import java.util.ArrayList;
+
+public class A4_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Double>list = new ArrayList<>();
+		
+		for(double i = 1; i <= 4; i++) {
+			list.add(i);
+		}
+		
+		for(int j = 0; j < 3; j++) {
+			System.out.print(list.get(j) + " ");
+		}
+	}
+
+}

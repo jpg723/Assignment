@@ -1,0 +1,10 @@
+package A11_2;
+
+class Bread extends Food{
+	int num;
+	
+	public Bread() {
+		super();
+		this.num = num;
+	}
+}

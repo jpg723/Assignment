@@ -1,0 +1,6 @@
+package A12_3;
+
+class ColorRectangle extends Rectangle{
+	
+
+}

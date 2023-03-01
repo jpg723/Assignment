@@ -1,0 +1,18 @@
+package A12_2;
+
+public class GoodCalc extends Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+	public int sub(int a, int b) {	
+		return a - b;
+	}
+    
+    public double average(int a) {
+        double sum = 0;
+
+        return sum/3;
+    }
+}

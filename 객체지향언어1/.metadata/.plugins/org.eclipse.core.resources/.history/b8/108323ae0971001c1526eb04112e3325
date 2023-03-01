@@ -1,0 +1,5 @@
+package P11_2;
+
+class Bird extends Animal{
+
+}

@@ -1,0 +1,20 @@
+
+public class P {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	
+	}
+	
+	public void traverse(String[][] board) {
+		for(int x = 0; x < board.length; x++) {
+			for(int y = 0; y < board.length; y++) {
+				System.out.println(board[x][y]);
+			}
+		}
+	}
+
+}
+

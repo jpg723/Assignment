@@ -1,0 +1,5 @@
+package P12_1;
+
+class SubObject extends SuperObject{
+
+}

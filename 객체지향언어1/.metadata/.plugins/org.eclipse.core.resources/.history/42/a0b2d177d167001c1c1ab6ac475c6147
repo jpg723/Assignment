@@ -1,0 +1,21 @@
+package A5_6;
+import java.util.Scanner;
+
+public class A5_6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		@SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
+		
+		Address a = new Address();
+		
+		System.out.print("이름을 입력하세요: ");
+		a.name = sc.next();
+		System.out.print("주소를 입력하세요: ");
+		sc.nextLine();
+		a.address = sc.nextLine();
+		
+		a.address();
+	}
+}

@@ -1,0 +1,12 @@
+package P12_1;
+
+class SubObject extends SuperObject{
+	protected String name;
+	public void draw() {
+	name = "Sub";
+	super.name = "Super";
+	super.draw();
+	System.out.println(name);
+	}
+
+}

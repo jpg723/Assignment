@@ -1,0 +1,30 @@
+package A4_5;
+
+import java.util.ArrayList;
+
+public class A4_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Double>list = new ArrayList<>();
+		double sum = 0, max = 0;
+		
+		for(double i = 1; i <= 4; i++) {
+			list.add(i);
+		}
+		
+		for(int j = 0; j < 4; j++) {
+			
+			System.out.print(list.get(j) + " ");
+			sum += list.get(j);
+			
+			if(max < list.get(j))
+				max = list.get(j);
+		}
+		
+		System.out.println("\n합은 " + sum);
+		System.out.println("최대값은 " + max);
+	}
+
+}

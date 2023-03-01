@@ -1,0 +1,28 @@
+package N2;
+
+public class Account {
+	int balance;
+	int money;
+	
+	public Account() {
+		
+	}
+	
+	public Account(int m) {
+		money = m;
+	}
+	
+	void withdraw(int money) {
+		
+		balance -= money; 
+	}
+	
+	void deposit(int money) {
+		balance += money; 
+	}
+	
+	void print() {
+		
+		System.out.println("현재 잔액은 " + balance + "원 입니다.");
+	}
+}
