@@ -1,7 +1,0 @@
-<%@ tag language="java" pageEncoding="UTF-8"%>
-<%@ attribute name="border"%>
-<div align="center">
-<h2><jsp:doBody/></h2>
-<table border="${border}" width="150">
-</table>
-</div>

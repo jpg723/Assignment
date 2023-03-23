@@ -1,6 +1,0 @@
-<%@ tag language="java" pageEncoding="UTF-8"%>
-<%@ attribute name="color"%>
-<%@ attribute name="brd"%>
-<jsp:useBean id="LoginBean" class="labhw12.LoginBean"/>
-<table border="${border}" style="background-color: ${bgcolor};">
-</table>

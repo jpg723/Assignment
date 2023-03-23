@@ -1,7 +1,0 @@
-<%@ tag language="java" pageEncoding="UTF-8"%>
-<%@ attribute name="color"%>
-<%@ attribute name="id"%>
-<font color="${ color }"> 
-<ddwutag:greeting name="${ id }">
-	${ id }님 환영합니다.!
-</font>

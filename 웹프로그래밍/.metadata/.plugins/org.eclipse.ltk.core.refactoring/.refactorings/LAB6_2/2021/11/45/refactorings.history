@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move &apos;image&apos; to &apos;LAB6_2&apos;" description="Move &apos;image&apos; to &apos;LAB6_2&apos;" destination="src/main/webapp/LAB6_2" element1="src/main/webapp/image" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1635733722410" updateReferences="true"/>
-</session>

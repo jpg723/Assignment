@@ -1,2 +1,0 @@
-<%@ tag language="java" pageEncoding="UTF-8"%>
-<%= request.getParameter("id") %>님 환영합니다.!

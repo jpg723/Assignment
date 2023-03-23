@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;LAB7_3/src/main/webapp/main.jsp&apos; to &apos;include_action.jsp&apos;" description="Rename resource &apos;main.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/main.jsp" name="include_action.jsp" stamp="1635070403270" updateReferences="true"/>
-</session>
